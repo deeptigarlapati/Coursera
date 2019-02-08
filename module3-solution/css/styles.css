@@ -1,0 +1,65 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: #ff980087;
+}
+
+.nav-bg{
+    /* background-color: #808080; */
+    background-color: lightseagreen;
+    border: 1px black solid;
+}
+.navbar-nav {
+    margin: 0px -15px;
+}
+.navbar-nav li {
+    background-color: white;
+    border: 1px black solid;
+}
+
+ #navbar-toggle-custom {
+    border-color: black;
+    background-color: transparent ;
+} 
+#navbar-toggle-custom .icon-bar {
+    background-color: black;
+
+}
+#navbar-toggle-custom[aria-expanded="true"]{
+    border-color: #ddd;
+}
+#navbar-toggle-custom[aria-expanded="true"] .icon-bar{
+    border-color: #ddd;
+    background-color:  #ddd;
+}
+
+#bs-example-navbar-collapse-1 li a {
+    color: black;
+    font-size: 1.5em;
+    background-color: lightseagreen;
+}
+
+.brand-custom {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black !important;
+}
+
+.box-bg {
+    position: relative;
+    background-color:lightgoldenrodyellow;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+     
+  }
+
+  .box-bg p{
+    margin: 10px;
+
+}
+  .title {
+  
+    font-size:2em;
+    font-weight: bold;
+  }
+  
